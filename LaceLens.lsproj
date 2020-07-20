@@ -3,7 +3,7 @@
     "document_id": "Vm2qzfv3Pzq7C1JTFAvL",
     "original_document_id": "Vm2qzfv3Pzq7C1JTFAvL",
     "version": "24",
-    "lastChanged": "1595043760267",
+    "lastChanged": "1595252995130",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -269,7 +269,22 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": "",
+                    "uidData": [
+                        {
+                            "k": "1595252927982811:216516",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
                     "generalData": ""
                 }
             }
@@ -284,12 +299,14 @@
                 "5": "1595039095793951:2566",
                 "6": "1595040652314871:192868",
                 "7": "1595040652315325:192874",
-                "8": "1595042111062670:348810"
+                "8": "1595252927956185:216307",
+                "9": "1595252927966655:216380",
+                "10": "1595252927982657:216515"
             }
         },
         "LayerComponent": {
             "nextLayerId": "2",
-            "showOrthographicLayer": "false",
+            "showOrthographicLayer": "true",
             "layersInfo": [
                 {
                     "layerId": "0",
@@ -506,7 +523,7 @@
                     },
                     {
                         "k": "979",
-                        "v": "f306e1db050135f826aae6d7a1903829"
+                        "v": "adf75ff0a61bf1acc35c4e50e894d8df"
                     },
                     {
                         "k": "980",
@@ -538,7 +555,7 @@
                     },
                     {
                         "k": "987",
-                        "v": "02654f655bd3bf30846a27b2a6ac81ac"
+                        "v": "a5db88a650a8dfa0b9b79318fed9bd92"
                     },
                     {
                         "k": "988",
@@ -548,9 +565,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-07-17T20:41:57",
+                        "lastModified": "2020-07-20T06:49:30",
                         "name": "Public",
-                        "hash": "d4990727b53e23c58b69ec065307067d",
+                        "hash": "3e374d125023d80d750c7de71aec628f",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -583,16 +600,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-07-17T20:41:57",
+                                "lastModified": "2020-07-20T06:49:30",
                                 "name": "HologramWhite.lsmat",
-                                "hash": "e8b680e1909efab4ffc9af8dec55d137",
+                                "hash": "453a4ce8d2205c45ce8babc5a8ab77a0",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-07-17T20:41:57",
+                                "lastModified": "2020-07-20T06:49:30",
                                 "name": "HologramBlue.lsmat",
-                                "hash": "a14c38e287a68d702895e079753917f4",
+                                "hash": "4777ed3f6f797cf1fa50eaa279ba9e92",
                                 "children": ""
                             },
                             {
@@ -973,11 +990,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1595042111062670:348810"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
